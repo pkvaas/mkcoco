@@ -40,6 +40,7 @@ body {
 }
 .bg-img {
     background-image: url(../img/background.webp);
+    background-position: center;
 }
 .ms-center {
     margin: auto !important;
@@ -254,4 +255,82 @@ body {
     border-color: #000 !important;
     border-width: 2px;
     opacity: .5;
+}
+.mb-2 {
+    margin-top: 1rem;
+    color: #000;
+}
+
+@media screen and (max-width: 720px) {
+    .navbar-toggler {
+        position: absolute;
+        bottom: 15px;
+    }
+    .navbar-collapse {
+        margin-bottom: 50px;
+    }
+    .nav-link {
+        width: 50px;
+        height: 50px;
+        font-size: 8px;
+        margin: 3px;
+    }
+    .nav-link .fas {
+        font-size: 14px;
+    }
+    .logo_img img {
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+    .lead {
+        width: 100%;
+    }
+    .about-bg .container {
+        width: 100%;
+    }
+    .about-bg .container > div {
+        padding: 5%;
+        font-size: 18px;
+    }
+    #contact iframe {
+        position: relative;
+    }
+    .address-section {
+        padding-top: 1.5rem;
+        text-align: center;
+    }
+    .address-section h4 {
+        font-size: 18px;
+    }
+    .address-section p,
+    .address-section address {
+        font-size: 12px;
+    }
+    #contact h1 {
+        padding-bottom: 10px;
+        margin: 0;
+        text-align: center;
+    }
+    .address-section hr {
+        border-width: 1px;
+        margin: 10px auto 10px !important;
+    }
+    .address-section hr {
+        display: none;
+    }
+    .address-section svg {
+        width: 20px;
+        height: 20px;
+    }
+    p.mb-2 {
+        display: none;
+    }
+    h4.mb-2 {
+        display: inline-block;
+        margin-left: .7rem;
+    }
+    .mb-3 {
+        margin-bottom: .7rem !important;
+    }
 }
